@@ -6,20 +6,20 @@ class McpMemoryLibravdb < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/xDarkicex/mcp-libravdb-server/releases/download/v0.1.2/mcp-memory-libravdb-darwin-arm64"
-      sha256 "b9207c19d51ffe2734dbc2769d279ee1eeb5e7ca2b8cbc756ef53fe6e3773096"
+      sha256 "52219a5e0c4d78a5d774125948b44e04a1e0adffafbb38b3db4807b5dc0b2fff"
     else
       url "https://github.com/xDarkicex/mcp-libravdb-server/releases/download/v0.1.2/mcp-memory-libravdb-darwin-amd64"
-      sha256 "b7a59c4e0e849464b33f9d4be317f347dbe2080b1eb3c6b3870cc22c5f703a02"
+      sha256 "dc51d67faf49386f6483366861e49bb28876cf9e7e37436d83f20b2214422393"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/xDarkicex/mcp-libravdb-server/releases/download/v0.1.2/mcp-memory-libravdb-linux-arm64"
-      sha256 "f3bd611ce44d436f90e69b184b178debe4fcc3399d3df1fa1ea436b04c5e33a2"
+      sha256 "f73273a373bb8169e808cad8e1e539eb511df68a9347b2910e106dd1b71398db"
     else
       url "https://github.com/xDarkicex/mcp-libravdb-server/releases/download/v0.1.2/mcp-memory-libravdb-linux-amd64"
-      sha256 "bc53b049baadfb3b138c36ccfb72e358bb7da6dde052cec94396df0edef7a938"
+      sha256 "acdcda8e33fd2663210628cfad00051d6e42b05229b3cac08ca307b06e390d34"
     end
   end
 
